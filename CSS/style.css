@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.separador {
+    background-color: white;
+    margin-top: 70px;
+    width: 2px;
+    height: 30px;
+
+}
+.botones{
+    display: flex;
+}
+.botones a{
+
+font-family: 'Source Code Pro', monospace;
+font-weight: 600;
+align-items: center;
+color: white;
+display: inline-table;
+margin: 5px 30px;
+background-color: #ff7900;
+border-radius: 30px;
+padding: 10px 10px;
+height: -80px;
+width: 100px;
+text-decoration: none;
+font-size: 12px;
+margin-top: 70px;
+   
+}
+
+.botones a:hover {
+    font-family: 'Source Code Pro', monospace;
+    background-color: transparent;
+    border: 2px solid#ff7900;
+    color:#ff7900;
+}
+
+.niveles{
+font-family: 'Source Code Pro', monospace;
+color: white;
+font-size: 20px;
+margin-left: 50px;
+
+}
+
+.Bienvenidos{
+    margin-bottom: 20px;
+
+}
+
+body {
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    background-image: url(/Imagenes/Fondo_pag.png);
+    background-position: center;
+    background-repeat:repeat
+}
+
+.cabecera{
+        width: 1860px;
+            height: 150px;
+            color: white;
+            margin: 0.5em;
+            padding: 0.5em;
+        display: flex;
+        z-index: 100;
+}
+
+
+.titulo {
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    font-size: 30px;
+    margin-left: 50px;
+}
+.logo{
+    padding: 20px 20px;
+    margin-right: 10px;
+}
+.barracontenido {
+    display: flex;
+    align-items: center;
+    width: 1860px;
+    height: 100px;
+color: white;
+     margin: 0.5em;
+    padding: 0.5em;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.rectangulo {
+    margin-left: 50px;
+    margin-top: 50px;
+    padding: 20px 20px;
+}
+
+.barracontenido a {
+  
+    padding: 20px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    align-items: center;
+    text-align: justify;
+    margin-left: 80px;
+    margin-top: 50px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+
+
+.astro {
+    padding: 20px 20px;
+   margin-left:450px;
+}
+
+
+.bienvenidos-astros{
+  
+    text-align: left;
+    padding: 20px;
+   font-family: 'Source Code Pro', monospace;;
+    margin-right: 300px;
+    
+}
+
+.bienvenidos-astronautas {
+    width: 1860px;
+    height: 350px;
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 80px;
+    padding: 20px 20px;
+    margin: 0.5em;
+    padding: 0.5em;
+
+}
+.contenido-modulo {
+    width: 1860px;
+    height: 1400px;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+.caja-nickname {
+    margin-left: 500px;
+    margin-top: 40px;
+   
+}
+
+.imgnick {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+
+.descripnick {
+    margin-block-start: 50px;
+}
+.cajanick {
+    font-family: 'Source Code Pro', monospace;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 90%;
+    color: black;
+  background-color: #ffffff;
+        width: 250px;
+        height: 1000px;
+        border-radius: 30px;
+        position: absolute;
+        box-shadow: 2px 2px 30px 2px #333333;
+        
+
+}
+.caja1{
+    background-color: #DDFF7D;
+    color: black;
+    width: 600px;
+    height: 200px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    margin-inline: 80px;
+    margin-block-end: 30px;
+    position: relative;
+    box-shadow: 2px 2px 30px 2px #333333;
+}
+.caja2 {
+    background-color: #C18FFF;
+    font-family: 'Source Code Pro', monospace;
+    color: black;
+    width: 600px;
+    height: 200px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    margin-inline: 80px;
+    margin-block-end: 30px;
+    position: relative;
+    box-shadow: 2px 2px 30px 2px #333333;
+}
+.caja3 {
+    background-color: #EC83CE;
+    font-family: 'Source Code Pro', monospace;
+    color: black;
+    width: 600px;
+    height: 200px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    margin-inline: 80px;
+    margin-block-end: 30px;
+    position: relative;
+    box-shadow: 2px 2px 30px 2px #333333;
+}
+.caja4 {
+    font-family: 'Source Code Pro', monospace;
+    color: black;
+    background-color: #94DCF0;
+    width: 600px;
+    height: 200px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    margin-inline: 80px;
+    margin-block-end: 30px;
+    position: relative;
+    box-shadow: 2px 2px 30px 2px #333333 ;
+}
+.caja-modulo{
+    font-family: 'Source Code Pro', monospace;
+    color: black;
+    padding-inline: 0px;
+
+
+
+}
+.imgsobrecaja{
+    margin-left: 40px;
+    display: flex;
+}
+
+.cajatitulo{
+    font-family: 'Source Code Pro', monospace;
+    text-transform: uppercase;
+    display: block;
+    position: relative;
+    color: black;
+    margin-bottom: 20px;
+}
+.cajatexto{
+    font-family: 'Source Code Pro', monospace;
+    color: black;
+    padding: 30px;
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+.nicktext {
+    padding-inline: 30px;
+    text-align: justify;
+}
+.saltolinea1{
+    margin-block-start: 20px;
+}
+.saltolinea2 {
+    margin-block-start: 20px;
+}
+.saltolinea3 {
+    margin-block-start: 20px;
+}
+.saltolinea4 {
+    margin-block-start: 20px;
+}
+
+.piedepagina {
+
+    width: 1860px;
+        height: 100px;
+     
+        justify-content: space-between;
+        padding-inline: 80px;
+        padding: 20px 20px;
+        margin: 0.5em;
+        padding: 0.5em;
+        position: absolute;
+}
+
+.barrapie{
+
+width: 1830px;
+    height: 50px;
+    color: white;
+    justify-content: space-between;
+    padding-inline: 80px;
+    padding: 20px 20px;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+
+
+    
